@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="86" viewBox="0 0 440 86">
+  <title>Felipe Welter</title>
+
+  <defs>
+    <clipPath id="digitacao">
+      <rect x="24" y="0" width="0" height="86">
+        <animate attributeName="width"
+          values="0;20;40;60;80;100;120;140;160;180;200;220;240;260"
+          calcMode="discrete" dur="1.5s" fill="freeze"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="440" height="86" rx="10" fill="#0D1117"/>
+
+  <text x="24" y="55" fill="#39FF14" font-family="monospace"
+    font-size="32" textLength="260" lengthAdjust="spacingAndGlyphs"
+    clip-path="url(#digitacao)">Felipe Welter</text>
+
+  <rect x="24" y="30" width="3" height="30" fill="#39FF14">
+    <animate attributeName="x"
+      values="24;44;64;84;104;124;144;164;184;204;224;244;264;284"
+      calcMode="discrete" dur="1.5s" fill="freeze"/>
+    <animate attributeName="opacity" values="1;0"
+      calcMode="discrete" begin="1.5s" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>
