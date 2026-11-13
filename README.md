@@ -1,1 +1,1 @@
-![Apresentação animada do Felipe Welter](https://readme-typing-svg.demolab.com/?font=Fira+Code&pause=1000&color=0EF770&width=500&lines=Ol%C3%A1%2C+eu+sou+Felipe+Welter%21;Bem-vindo+ao+meu+GitHub%21)
+![Felipe Welter](https://readme-typing-svg.demolab.com/?font=Share+Tech+Mono&size=34&duration=1800&pause=2500&color=39FF14&background=0D1117&width=420&height=64&vCenter=true&lines=Felipe+Welter)
