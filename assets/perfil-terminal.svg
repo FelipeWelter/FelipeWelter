@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="310" viewBox="0 0 800 310" role="img" aria-labelledby="title description">
+  <title id="title">Felipe Welter</title>
+  <desc id="description">Desenvolvimento de software e infraestrutura de TI. Banner com LEDs de rede, pacotes em movimento e um terminal que alterna entre WSystemX, automação e monitoramento.</desc>
+  <style>
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none }
+      .fallback { display: inline }
+    }
+  </style>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0c1420"/>
+      <stop offset="1" stop-color="#111e2c"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#26384b" stroke-opacity=".45"/>
+    </pattern>
+  </defs>
+  <rect x="1" y="1" width="798" height="308" rx="22" fill="url(#background)" stroke="#2c4256"/>
+  <rect x="1" y="1" width="798" height="308" rx="22" fill="url(#grid)"/>
+  <path d="M1 47H799" stroke="#2c4256"/>
+  <g font-family="monospace">
+    <circle cx="30" cy="25" r="4" fill="#5eead4"/>
+    <circle cx="46" cy="25" r="4" fill="#45728a"/>
+    <circle cx="62" cy="25" r="4" fill="#45728a"/>
+    <text x="770" y="30" text-anchor="end" font-size="15" fill="#b4c7d8">felipe@dev:~</text>
+
+    <text x="35" y="111" font-size="52" font-weight="700" fill="#eff6ff">Felipe Welter</text>
+    <text x="37" y="150" font-size="22" fill="#5eead4">Desenvolvimento de software</text>
+    <text x="37" y="180" font-size="22" fill="#5eead4">e infraestrutura de TI</text>
+
+    <g transform="translate(552 72)" stroke="#38586f">
+      <rect width="210" height="36" rx="7" fill="#132334"/>
+      <rect y="47" width="210" height="36" rx="7" fill="#132334"/>
+      <rect y="94" width="210" height="36" rx="7" fill="#132334"/>
+      <path d="M22 18h32m-32 47h32m-32 47h32" stroke-width="2"/>
+      <g stroke="none" font-size="15" fill="#b4c7d8">
+        <text x="68" y="23">SOFTWARE</text>
+        <text x="68" y="70">SERVIDORES</text>
+        <text x="68" y="117">REDES</text>
+      </g>
+      <g fill="#5eead4" stroke="none">
+        <circle cx="187" cy="18" r="4"/>
+        <circle cx="187" cy="65" r="4"/>
+        <circle cx="187" cy="112" r="4"/>
+      </g>
+      <g class="motion" fill="#132334" stroke="none">
+        <circle cx="187" cy="18" r="4" opacity="0"><animate attributeName="opacity" values="0;.85;0" dur="2s" repeatCount="indefinite"/></circle>
+        <circle cx="187" cy="65" r="4" opacity="0"><animate attributeName="opacity" values="0;.85;0" dur="3s" repeatCount="indefinite"/></circle>
+        <circle cx="187" cy="112" r="4" opacity="0"><animate attributeName="opacity" values="0;.85;0" dur="1.6s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+
+    <path d="M37 222H763" stroke="#38586f"/>
+    <g class="motion">
+      <circle cx="37" cy="222" r="4" fill="#5eead4">
+        <animate attributeName="cx" from="37" to="763" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="37" cy="222" r="3" fill="#7dd3fc" opacity="0">
+        <animate attributeName="cx" from="37" to="763" begin="2s" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.95;1" begin="2s" dur="4s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+
+    <rect x="37" y="242" width="726" height="44" rx="8" fill="#0a131d" stroke="#2c4256"/>
+    <text x="53" y="270" font-size="19" fill="#5eead4">$</text>
+    <g font-size="19" fill="#eff6ff">
+      <text class="fallback" display="none" x="80" y="270">WSystemX · ferramentas para Windows</text>
+      <g class="motion">
+        <text x="80" y="270">WSystemX · ferramentas para Windows
+          <animate attributeName="opacity" values="1;0;0" keyTimes="0;.333333;.666667" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+        </text>
+        <text x="80" y="270" opacity="0">Python · automação de tarefas
+          <animate attributeName="opacity" values="0;1;0" keyTimes="0;.333333;.666667" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+        </text>
+        <text x="80" y="270" opacity="0">Linux e Docker · monitoramento de serviços
+          <animate attributeName="opacity" values="0;0;1" keyTimes="0;.333333;.666667" calcMode="discrete" dur="12s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+    <rect class="motion" x="736" y="255" width="9" height="17" fill="#5eead4">
+      <animate attributeName="opacity" values="1;0" keyTimes="0;.5" calcMode="discrete" dur="1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
