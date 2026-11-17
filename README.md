@@ -6,8 +6,10 @@ Sou analista de sistemas e desenvolvo ferramentas para Windows e aplicações we
 
 ## Projetos em destaque
 
-- **[WSystemX](https://github.com/FelipeWelter/WSystemX-Releases)** — utilitário de monitoramento e diagnóstico para Windows, desenvolvido em C# com .NET e WPF.
-- **Portal de Monitoramento** — painel para acompanhar serviços HTTP/HTTPS, disponibilidade via ping e estado de contêineres Docker.
+- **[WSystemX](https://github.com/FelipeWelter/WSystemX-Releases)**. Aplicativo para Windows que reúne monitoramento de hardware, diagnóstico do sistema e análise de FPS e frametime em jogos. Desenvolvido em C# com .NET e WPF.
+- **[Portal de Monitoramento](https://github.com/FelipeWelter/portal-monitoramento-Portfolio)**. Painel em Python e Flask que acompanha a disponibilidade de serviços por ping e HTTP/HTTPS, exibe tempos de resposta e reúne métricas de CPU, memória, disco e tempo de atividade do servidor.
+- **[LojaWeb](https://github.com/FelipeWelter/lojaWeb-Portfolio)**. Sistema web em Flask e SQLite para controle de estoque, vendas, serviços e montagem de computadores.
+- **[Livraria · Controle de empréstimos](https://github.com/FelipeWelter/LivrariaControleEmprestimo-Portfolio)**. Aplicação em ASP.NET Core MVC com SQL Server para cadastrar clientes e livros e gerenciar empréstimos.
 
 ## Tecnologias
 
